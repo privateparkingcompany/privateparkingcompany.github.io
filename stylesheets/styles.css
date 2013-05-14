@@ -1,0 +1,176 @@
+body, h1, h2, h3, h4, h5, h6, p, span, a, input, textarea, select, li, td, th {
+  font-family: 'Open Sans', sans-serif;
+  color: #696969;
+}
+
+header, section.main-content {
+  width: 1170px;
+  margin: 0px auto;
+}
+
+.clear {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+body  {
+  margin: 0px;
+}
+
+section.header-block {
+  padding-top: 10px;
+}
+
+section.header-block article.main-logo {
+  margin-top: 10px;
+  float: left;
+}
+
+section.header-block article.phone-number {
+  float: right;
+  background: url("../images/phone.png") no-repeat left center;
+  margin-top: 5px;
+  padding-left: 50px;
+  font-size: 22px;
+}
+
+section.header-block article.phone-number h3 {
+  font-weight: 600;
+}
+
+article.navigation_and_quote {
+  border-top: 1px solid #2B5195;
+  border-bottom: 1px solid #2B5195;
+  margin-top: 20px;
+}
+
+article.navigation_and_quote nav {
+  width: 990px;
+  display: inline-block;
+}
+
+article.navigation_and_quote nav ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+article.navigation_and_quote nav ul li {
+  width:  80px;
+  display: inline-block;
+  border-right: 2px solid #696969;
+  color: #696969;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+article.navigation_and_quote nav ul li.employment {
+  width: 110px;
+}
+
+article.navigation_and_quote nav ul li a {
+  text-align: center;
+  font-size: 16px;
+}
+
+article.navigation_and_quote nav ul li:last-child {
+  border-right: none;
+}
+
+article.navigation_and_quote nav ul li.active a {
+  color: #2B5195;
+  font-weight: 700;
+}
+
+article.navigation_and_quote .request-quote {
+  display: inline-block;
+  width: 170px;
+  padding-top: 14px;
+  margin-left: 5px;
+}
+
+article.navigation_and_quote .request-quote a {
+  width: 200px;
+  font-size: 18px;
+  background-color: #2B5195;
+  padding: 15px 23px;
+  color: white;
+  text-decoration: none;
+}
+
+article.navigation_and_quote .request-quote a:hover {
+  text-decoration: underline;
+}
+
+section.main-content {
+  margin-top: 10px;
+}
+
+section.main-content article.left-content {
+  width: 670px;
+  display: inline-block;
+  float: left;
+  margin-top: 20px;
+}
+
+section.main-content article.left-content h3 {
+  color: #222;
+}
+
+section.main-content article.left-content p {
+  text-align: justify;
+  line-height: 2em;
+}
+
+section.main-content article.left-content p a {
+  color: #2B5195;
+  font-weight: 700;
+}
+
+section.main-content article.right-content {
+  display: inline-block;
+  box-shadow: 0px 0px 8px #696969;
+  margin-left: 37px;
+  margin-top: 40px;
+}
+
+
+#wrapper {
+  width: 1170px;
+  height: 350px;
+  margin: 0px;
+  position: relative;
+  left: 0%;
+  top: 0%;
+}
+#carousel {
+  width: 1170px;
+  height: 350px;
+}
+#carousel img {
+  display: block;
+  float: left;
+}
+
+footer {
+  height: 200px;
+  background-color: #152542;
+  margin-top: 60px;
+}
+
+footer article {
+  width: 375px;
+  margin: 0px auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+footer article p.number {
+  color: #d4d4d4;
+}
+
+footer article p.copyright {
+  color: #475369;
+}
