@@ -141,6 +141,10 @@ section.main-content article.right-content {
   margin-top: 40px;
 }
 
+section.main-content article.right-content.contact {
+  box-shadow: none;
+}
+
 
 #wrapper {
   width: 1170px;
