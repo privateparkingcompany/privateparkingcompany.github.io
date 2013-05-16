@@ -70,6 +70,10 @@ article.navigation_and_quote nav ul li.employment {
   width: 110px;
 }
 
+article.navigation_and_quote nav ul li.parking_management {
+  width: 175px;
+}
+
 article.navigation_and_quote nav ul li a {
   text-align: center;
   font-size: 16px;
@@ -117,6 +121,7 @@ section.main-content article.left-content {
 
 section.main-content article.left-content h3 {
   color: #222;
+  line-height: 2em;
 }
 
 section.main-content article.left-content p {
